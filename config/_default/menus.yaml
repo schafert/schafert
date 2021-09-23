@@ -5,11 +5,11 @@
 
 main:
   - name: Publications
-    url: '#publications'
+    url: '/publication'
     weight: 10
   - name: CV
-    url: '#cv'
+    url: '/cv'
     weight: 20
   - name: Teaching
-    url: '#teaching'
+    url: '/teaching'
     weight: 30
