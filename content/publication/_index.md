@@ -1,8 +1,5 @@
 ---
-cms_exclude: true
-header:
-  caption: ""
-  image: ""
-title: Publications
-view: 4
+summary: My publication list
+title: "Publications"
+type: widget_page
 ---
