@@ -5,9 +5,9 @@
 
 # Appearance
 
-theme: minimal
+theme: earth
 day_night: true
-font: ''
+font: rose
 font_size: L
 
 # SEO
@@ -26,7 +26,7 @@ address:
   street: Cornell University
   city: Ithaca
   region: NY
-  postcode: '14853'
+  postcode: '14850'
   country: United States
   country_code: US
 # coordinates:
@@ -157,4 +157,4 @@ cms:
   local_backend: false
 icon:
   pack:
-    ai: false
+    ai: true
