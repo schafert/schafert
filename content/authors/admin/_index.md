@@ -1,5 +1,6 @@
 ---
 bio: I am a postdoctoral associate in the Department of Statistics and Data Science at Cornell University working with David Matteson. 
+
 education:
   courses:
   - course: PhD in Statistics
@@ -43,5 +44,5 @@ superuser: true
 title: Toryn Schafer
 ---
 
-I am a postdoctoral associate in the Department of Statistics and Data Science at Cornell University working with David Matteson. 
+I am a postdoctoral associate in the Department of Statistics and Data Science at Cornell University working with David Matteson. My quantitative research interests span many topics, but with an underlying commonality that includes spatio-temporal modeling, Bayesian estimation, and alternative learning frameworks such as machine learning, deep learning, and reinforcement learning. I am highly motivated by scientific hypotheses with an emphasis on ecological and environmental applications.
 
