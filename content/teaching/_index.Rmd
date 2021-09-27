@@ -22,11 +22,13 @@ author: "Toryn Schafer"
 
 [About Code-RLadies](https://code-rladies.github.io)
 
+
+
+### Workshop Presenter, ASA Datafest Mid-MO
+
 :::: {style="display: flex;"}
 
 ::: {}
-
-### Workshop Presenter, ASA Datafest Mid-MO
 
 *University of Missouri, Statistics Dept., Columbia, MO*  
 
