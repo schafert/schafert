@@ -15,11 +15,13 @@ education:
 email: ""
 highlight_name: true
 interests:
-- Bayesian methods
 - Spatio-temporal statistics
 - Reinforcement learning
+- Bayesian methods
 - Machine learning
 - Ecology
+- Energy
+- Sports
 organizations:
 - name: Cornell University
   url: https://www.cornell.edu/
@@ -44,5 +46,5 @@ superuser: true
 title: Toryn Schafer
 ---
 
-I am a postdoctoral associate in the Department of Statistics and Data Science at Cornell University working with David Matteson. My quantitative research interests span many topics, but with an underlying commonality that includes spatio-temporal modeling, Bayesian estimation, and alternative learning frameworks such as machine learning, deep learning, and reinforcement learning. I am highly motivated by scientific hypotheses with an emphasis on ecological and environmental applications.
+I am a postdoctoral associate in the Department of Statistics and Data Science at Cornell University working with Dr. David Matteson. I finished my PhD in 2020 at the University of Missouri advised by Dr. Christopher Wikle. My quantitative research interests span many topics, but with an underlying commonality that includes spatio-temporal modeling, Bayesian statistics, and alternative learning frameworks such as machine learning, deep learning, and reinforcement learning. I am highly motivated by scientific hypotheses with an emphasis on ecological and environmental applications.
 
