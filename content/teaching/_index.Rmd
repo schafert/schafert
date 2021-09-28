@@ -5,11 +5,13 @@ type: widget_page
 author: "Toryn Schafer"
 ---
 
-### Lead Workshop Organizer, KDD 2021
+### Lead Workshop Organizer, Knowledge Discovery and Data Mining (KDD) 2021
 
 **Data-Driven Exploration of Interconnected Risks in Complex Human–Natural Systems**
 
 *Risk identification & quantification in complex human-natural systems via convergent data intensive research.*
+
+Conference Proceedings DOI: [10.1145/3447548.3469480](https://doi.org/10.1145/3447548.3469480)
 
 [Learn more here](https://sites.google.com/view/prism-prj/kdd-2021-workshop)
 

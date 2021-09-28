@@ -17,7 +17,7 @@ highlight_name: true
 interests:
 - Spatio-temporal statistics
 - Reinforcement learning
-- Bayesian methods
+- Bayesian statistics
 - Machine learning
 - Ecology
 - Energy
