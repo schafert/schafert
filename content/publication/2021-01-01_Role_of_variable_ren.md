@@ -1,7 +1,7 @@
 +++
-title = "Clustering Future Scenarios Based on Predicted Range Maps"
+title = "Role of variable renewable energy penetration on electricity price and its volatility across independent system operators in the United States"
 date = "2021-01-01"
-authors = ["Matthew Davidow", "Cory Merow", "Judy Che-Castaldo", "Toryn L. J. Schafer", "Marie-Christine Duker", "Derek Corcoran", "David Matteson"]
+authors = ["Olukunle O. Owolabi", "Toryn L. J. Schafer", "G.E. Smits", "S. Sengupta", "S. Ryan", "Lan Wang", "David S. Matteson", "Mila Getmansky Sherman", "Deborah A. Sunter"]
 publication_types = ["0"]
 publication = "NA"
 publication_short = "NA"
