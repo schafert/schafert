@@ -11,6 +11,6 @@ main:
     url: '/teaching'
     weight: 20
   - name: CV
-    url: '/cv'
+    url: 'files/TSchafer_CV.pdf'
     weight: 30
 
