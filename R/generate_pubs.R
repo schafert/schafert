@@ -185,5 +185,5 @@ outfold <- "content/publication"
 # Use the conversion function
 bibtex_2academic(my_bibfile,
                  outfold,
-                 abstract = FALSE,
-                 overwrite = FALSE)
+                 abstract = TRUE,
+                 overwrite = TRUE)
