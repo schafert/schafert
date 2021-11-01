@@ -1,5 +1,6 @@
 ---
 bio: I am a postdoctoral associate in the Department of Statistics and Data Science at Cornell University working with David Matteson. 
+
 education:
   courses:
   - course: PhD in Statistics
@@ -14,11 +15,13 @@ education:
 email: ""
 highlight_name: true
 interests:
-- Bayesian methods
 - Spatio-temporal statistics
 - Reinforcement learning
+- Bayesian statistics
 - Machine learning
 - Ecology
+- Energy
+- Sports
 organizations:
 - name: Cornell University
   url: https://www.cornell.edu/
@@ -43,5 +46,5 @@ superuser: true
 title: Toryn Schafer
 ---
 
-I am a postdoctoral associate in the Department of Statistics and Data Science at Cornell University working with David Matteson. 
+I am a postdoctoral associate in the Department of Statistics and Data Science at Cornell University working with Dr. David Matteson. Currently, I coordinate research activities associated with the NSF funded [PRISM](https://sites.google.com/view/prism-prj/home) Institute for Trans-domain Systemic Risk. I finished my PhD in 2020 at the University of Missouri advised by Dr. Christopher Wikle. My quantitative research interests span many topics, but with an underlying commonality that includes spatio-temporal modeling, Bayesian statistics, and alternative learning frameworks such as machine learning, deep learning, and reinforcement learning. I am highly motivated by scientific hypotheses with an emphasis on ecological and environmental applications. 
 

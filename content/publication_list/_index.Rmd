@@ -1,0 +1,11 @@
+---
+summary: Publication list
+type: widget_page
+author: "Toryn Schafer"
+output: html_document
+bibliography: LifeWork.bib
+csl: apa-cv.csl
+nocite: '@*'
+---
+
+
