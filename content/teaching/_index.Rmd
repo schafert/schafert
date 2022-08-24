@@ -5,6 +5,10 @@ type: widget_page
 author: "Toryn Schafer"
 ---
 
+### Texas A&M University
+
+Fall 2022 - STAT 303
+
 ### Lead Workshop Organizer, Knowledge Discovery and Data Mining (KDD) 2021
 
 **Data-Driven Exploration of Interconnected Risks in Complex Human–Natural Systems**
