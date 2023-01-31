@@ -186,4 +186,4 @@ outfold <- "content/publication"
 bibtex_2academic(my_bibfile,
                  outfold,
                  abstract = TRUE,
-                 overwrite = FALSE)
+                 overwrite = TRUE)
