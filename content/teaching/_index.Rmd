@@ -7,7 +7,9 @@ author: "Toryn Schafer"
 
 ### Texas A&M University
 
-Fall 2022 - STAT 303
+- STAT 624: S2024  
+- STAT 404: F2023, S2023
+- STAT 303: F2022
 
 ### Lead Workshop Organizer, Knowledge Discovery and Data Mining (KDD) 2021
 
@@ -54,7 +56,7 @@ Working with Data
 
 ::: {}
 
-```{r datafest, echo = FALSE, fig.align='left', fig.cap="Working with students Datafest 2018"}
+```{r datafest, echo = FALSE}
 knitr::include_graphics("image.png")
 ```
 
