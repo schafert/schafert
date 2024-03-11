@@ -1,8 +1,8 @@
 ---
-summary: My teaching summary
-title: ""
-type: widget_page
+title: ''
 author: "Toryn Schafer"
+type: widget_page
+summary: My teaching summary
 ---
 
 ### Texas A&M University
