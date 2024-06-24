@@ -179,7 +179,7 @@ bibtex_2academic <- function(bibfile,
 }
 
 # Bibtex file in my directory
-my_bibfile <- "~/Library/CloudStorage/Box-Box/Academic-Portfolio/Research/LifeWork.bib"
+my_bibfile <- "~/OneDrive - Texas A&M University/Profile/CV/MarkdownCV/LifeWork.bib"
 # Where I want the markdown output to go
 outfold <- "content/publication"
 # Use the conversion function
