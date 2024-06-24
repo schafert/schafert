@@ -1,7 +1,7 @@
 +++
 title = "Drift vs Shift: Decoupling Trends and Changepoint Analysis"
 date = "2024-01-01"
-authors = ["Sean Ryan {Haoxuan Wu Toryn L. J. Schafer}", "David S. Matteson"]
+authors = ["Haoxuan Wu", "Toryn L. J. Schafer", "Sean Ryan",  "David S. Matteson"]
 publication_types = ["2"]
 publication = "Technometrics, (0), _pp. 1--16_, https://doi.org/10.1080/00401706.2024.2365730"
 publication_short = "Technometrics, (0), _pp. 1--16_, https://doi.org/10.1080/00401706.2024.2365730"

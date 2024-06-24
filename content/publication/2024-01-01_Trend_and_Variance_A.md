@@ -1,7 +1,7 @@
 +++
 title = "Trend and Variance Adaptive Bayesian Changepoint Analysis and Local Outlier Scoring"
 date = "2024-01-01"
-authors = ["{Haoxuan Wu}", "Toryn L.J. Schafer", "David S. Matteson"]
+authors = ["Haoxuan Wu", "Toryn L.J. Schafer", "David S. Matteson"]
 publication_types = ["2"]
 publication = "Journal of Business & Economic Statistics, (0), _pp. 1--21_, https://doi.org/10.1080/07350015.2024.2362269"
 publication_short = "Journal of Business & Economic Statistics, (0), _pp. 1--21_, https://doi.org/10.1080/07350015.2024.2362269"
