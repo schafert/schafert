@@ -94,11 +94,27 @@ bibtex_2academic <- function(bibfile,
       if (!is.na(x[["doi"]]) && x[["doi"]] != "")
         publication <- paste0(publication, ", https://doi.org/", x[["doi"]])
 
-      # Helper: collapse newlines and escape internal quotes — both are
-      # illegal inside TOML basic strings
+      # Helper: produce a safe TOML basic-string value.
+      # - Converts common LaTeX accent commands to Unicode
+      # - Strips remaining {} (case-protection braces, etc.)
+      # - Escapes backslashes and double-quotes
+      # - Collapses newlines
       clean_str <- function(s) {
-        s <- gsub("[\r\n]+", " ", s)   # newlines → space
-        s <- gsub('"', '\\\\"', s)     # " → \"
+        if (is.na(s)) return("")
+        # LaTeX accent → Unicode
+        accents <- list(
+          c("\\'a","á"), c("\\'e","é"), c("\\'i","í"), c("\\'o","ó"), c("\\'u","ú"),
+          c("\\'A","Á"), c("\\'E","É"), c("\\'I","Í"), c("\\'O","Ó"), c("\\'U","Ú"),
+          c('\\"a',"ä"), c('\\"e',"ë"), c('\\"o',"ö"), c('\\"u',"ü"),
+          c('\\"A',"Ä"), c('\\"E',"Ë"), c('\\"O',"Ö"), c('\\"U',"Ü"),
+          c("\\`a","à"), c("\\`e","è"), c("\\`o","ò"), c("\\`u","ù"),
+          c("\\~n","ñ"), c("\\~N","Ñ"), c("\\c{c}","ç"), c("\\c{C}","Ç")
+        )
+        for (p in accents) s <- gsub(p[1], p[2], s, fixed = TRUE)
+        s <- gsub("[{}]",    "",     s)          # remove remaining braces
+        s <- gsub("\\\\",   "\\\\\\\\", s)       # escape remaining backslashes
+        s <- gsub("[\r\n]+", " ",    s)          # collapse newlines
+        s <- gsub('"',      '\\\\"', s)          # escape double-quotes
         trimws(s)
       }
 
