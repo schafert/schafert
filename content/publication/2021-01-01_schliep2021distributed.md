@@ -1,6 +1,5 @@
 +++
-title = "Distributed lag models to identify the cumulative effects of training
-             and recovery in athletes using multivariate ordinal wellness data"
+title = "Distributed lag models to identify the cumulative effects of training              and recovery in athletes using multivariate ordinal wellness data"
 date = "2021-01-01"
 authors = ["Erin M. Schliep", "Toryn L. J. Schafer", "Matthew Hawkey"]
 publication_types = ["2"]

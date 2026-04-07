@@ -94,11 +94,19 @@ bibtex_2academic <- function(bibfile,
       if (!is.na(x[["doi"]]) && x[["doi"]] != "")
         publication <- paste0(publication, ", https://doi.org/", x[["doi"]])
 
+      # Helper: collapse newlines and escape internal quotes — both are
+      # illegal inside TOML basic strings
+      clean_str <- function(s) {
+        s <- gsub("[\r\n]+", " ", s)   # newlines → space
+        s <- gsub('"', '\\\\"', s)     # " → \"
+        trimws(s)
+      }
+
       fileConn <- file.path(outfold, filename)
       write("+++", fileConn)
 
       # Title and date
-      write(paste0("title = \"", x[["title"]], "\""), fileConn, append = TRUE)
+      write(paste0("title = \"", clean_str(x[["title"]]), "\""), fileConn, append = TRUE)
       write(paste0("date = \"", anydate(x[["date"]]), "\""), fileConn, append = TRUE)
 
       # Authors — keep "First Last" order, transliterate accented characters
@@ -111,12 +119,12 @@ bibtex_2academic <- function(bibfile,
             fileConn, append = TRUE)
 
       # Venue / journal / proceedings
-      write(paste0("publication = \"", publication, "\""), fileConn, append = TRUE)
-      write(paste0("publication_short = \"", publication, "\""), fileConn, append = TRUE)
+      write(paste0("publication = \"", clean_str(publication), "\""), fileConn, append = TRUE)
+      write(paste0("publication_short = \"", clean_str(publication), "\""), fileConn, append = TRUE)
 
       # Abstract
       if (abstract && !is.na(x[["abstract"]])) {
-        write(paste0("abstract = \"", x[["abstract"]], "\""), fileConn, append = TRUE)
+        write(paste0("abstract = \"", clean_str(x[["abstract"]]), "\""), fileConn, append = TRUE)
       } else {
         write("abstract = \"\"", fileConn, append = TRUE)
       }

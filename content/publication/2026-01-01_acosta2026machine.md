@@ -1,6 +1,5 @@
 +++
-title = "Applying machine learning to interpolate movement trajectories of
-              desert bighorn sheep"
+title = "Applying machine learning to interpolate movement trajectories of               desert bighorn sheep"
 date = "2026-01-01"
 authors = ["J. P. Acosta", "S. W. Park", "D. Stewart", "E. A. Lozano-Carvazos", "S. L. Webb", "Toryn L. J. Schafer"]
 publication_types = ["2"]

@@ -1,6 +1,5 @@
 +++
-title = "Locally adaptive shrinkage priors for trends and breaks in count
-              time series"
+title = "Locally adaptive shrinkage priors for trends and breaks in count               time series"
 date = "2024-01-01"
 authors = ["Toryn L. J. Schafer", "David S. Matteson"]
 publication_types = ["2"]

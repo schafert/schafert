@@ -1,7 +1,5 @@
 +++
-title = "Joint analysis of structured survey and citizen science data improves
-              precision of bird population trends and the extent of improvement
-              depends on life history strategy"
+title = "Joint analysis of structured survey and citizen science data improves               precision of bird population trends and the extent of improvement               depends on life history strategy"
 date = "2022-01-01"
 authors = ["Alexander R. Schindler", "Stephanie A. Cunningham", "Toryn L. J. Schafer", "Emily A. Sinnott", "Sarah J. Clements", "Frances M. DiDonato", "Alisha R. Mosloff", "Clay Walters", "Amy A. Shipley", "Mitch D. Weegman", "Qing Zhao"]
 publication_types = ["2"]
