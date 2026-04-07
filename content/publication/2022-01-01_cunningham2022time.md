@@ -1,5 +1,5 @@
 +++
-title = "Time-varying effects of local weather on behavior and probability               of breeding deferral in two {A}rctic-nesting goose populations"
+title = "Time-varying effects of local weather on behavior and probability               of breeding deferral in two Arctic-nesting goose populations"
 date = "2022-01-01"
 authors = ["Stephanie A. Cunningham", "Toryn L. J. Schafer", "Christopher K. Wikle", "Bart M. Ballard", "Jay A. VonBank", "Stuart Bearhop", "Geoff M. Hilton", "Alyn J. Walsh", "Larry R. Griffin", "Anthony D. Fox", "Mitch D. Weegman"]
 publication_types = ["2"]

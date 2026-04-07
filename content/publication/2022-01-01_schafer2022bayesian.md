@@ -1,5 +1,5 @@
 +++
-title = "{B}ayesian inverse reinforcement learning for collective movement"
+title = "Bayesian inverse reinforcement learning for collective movement"
 date = "2022-01-01"
 authors = ["Toryn L. J. Schafer", "Christopher K. Wikle", "Mevin B. Hooten"]
 publication_types = ["2"]

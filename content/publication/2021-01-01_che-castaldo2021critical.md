@@ -1,5 +1,5 @@
 +++
-title = "Critical {R}isk {I}ndicators ({CRI}s) for the electric power grid:               a survey and discussion of interconnected effects"
+title = "Critical Risk Indicators (CRIs) for the electric power grid:               a survey and discussion of interconnected effects"
 date = "2021-01-01"
 authors = ["Judy P. Che-Castaldo", "Remi Cousin", "Stefani Daryanto", "Grace Deng", "Mei-Ling E. Feng", "Rajesh K. Gupta", "Dezhi Hong", "Ryan M. McGranaghan", "Olukunle O. Owolabi", "Tianyi Qu", "Wei Ren", "Toryn L. J. Schafer", "Ashutosh Sharma", "Chaopeng Shen", "Mila Getmansky Sherman", "Deborah A. Sunter", "Lan Wang", "David S. Matteson"]
 publication_types = ["2"]

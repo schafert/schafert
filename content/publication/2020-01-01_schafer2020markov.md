@@ -1,5 +1,5 @@
 +++
-title = "{B}ayesian {M}arkov model with {Polya-Gamma} sampling for               estimating individual behavior transition probabilities from               accelerometer classifications"
+title = "Bayesian Markov model with Polya-Gamma sampling for               estimating individual behavior transition probabilities from               accelerometer classifications"
 date = "2020-01-01"
 authors = ["Toryn L. J. Schafer", "Christopher K. Wikle", "Bart M. Ballard", "Jay A. VonBank", "Mitch D. Weegman"]
 publication_types = ["2"]
