@@ -1,0 +1,12 @@
+---
+title: "Publications"
+bibliography: LifeWork.bib
+csl: apa-cv.csl
+nocite: |
+  @*
+---
+
+The list below is generated automatically from [`LifeWork.bib`](LifeWork.bib) every time this site is rebuilt — add a new entry to that file and it appears here on the next push. My publications also appear on [Google Scholar](https://scholar.google.com/citations?user=j4j3gDYAAAAJ&hl=en&oi=ao) and [ORCID](https://orcid.org/0000-0001-5594-7697).
+
+::: {#refs}
+:::

@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Toryn Schafer"
+  description: "Assistant Professor, Department of Statistics, Texas A&M University"
+  site-url: "https://toryn.netlify.app"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: publications.qmd
+        text: Publications
+      - href: cv.qmd
+        text: CV
+      - href: teaching.qmd
+        text: Teaching
+    right:
+      - icon: twitter
+        href: https://twitter.com/toryn_schafer
+        aria-label: Twitter
+      - icon: github
+        href: https://github.com/schafert
+        aria-label: GitHub
+      - icon: mortarboard-fill
+        href: https://scholar.google.com/citations?user=j4j3gDYAAAAJ&hl=en&oi=ao
+        aria-label: Google Scholar
+      - icon: person-vcard
+        href: https://orcid.org/0000-0001-5594-7697
+        aria-label: ORCID
+  page-footer:
+    left: "&copy; 2026 Toryn Schafer"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      light: [flatly, styles.scss]
+      dark: [darkly, styles.scss]
+    toc: false
+    grid:
+      body-width: 900px
+
+editor: source

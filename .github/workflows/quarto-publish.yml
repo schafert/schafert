@@ -1,0 +1,29 @@
+name: Quarto Publish
+
+# Renders and deploys the Quarto site in quarto-site/ to Netlify whenever
+# anything in that folder changes (including LifeWork.bib). One-time setup
+# required before this works — see quarto-site/DEPLOY.md.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+    paths:
+      - 'quarto-site/**'
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render and Publish
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: netlify
+          path: quarto-site
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}

@@ -1,0 +1,244 @@
+---
+title: "Curriculum Vitae"
+bibliography: LifeWork.bib
+csl: apa-cv.csl
+nocite: |
+  @*
+---
+
+[Download PDF version](files/TSchafer_CV.pdf){.btn .btn-outline-primary role="button"}
+
+::: {.callout-note}
+The **Publications** section below renders automatically from the same [`LifeWork.bib`](LifeWork.bib) file used on the [Publications](publications.qmd) page — add a paper there once and it appears in both places. Everything else on this page (experience, grants, talks, service) is maintained directly in `cv.qmd`.
+:::
+
+## Contact Information
+
+Toryn L. J. Schafer \
+Department of Statistics, Texas A&M University \
+Blocker 435, College Station, TX 77843 \
+[toryn27@gmail.com](mailto:toryn27@gmail.com)
+
+## Experience
+
+**Texas A&M University**, College Station, Texas \
+Assistant Professor, Department of Statistics, 2022 – Present
+
+**Cornell University**, Ithaca, New York \
+Postdoctoral Associate, Department of Statistics and Data Science, 2020 – 2022 \
+Principal Investigator: David Matteson
+
+## Education
+
+**University of Missouri**, Columbia, Missouri
+
+- Ph.D., Statistics, July 2020
+  - NSF Graduate Research Fellow, 2016 – 2020
+  - Dissertation: *Alternative Learning Strategies for Spatio-Temporal Processes of Complex Animal Behavior*
+  - Advisor: Christopher K. Wikle
+- M.A., Statistics, Dec 2018
+
+**Colorado State University**, Fort Collins, Colorado
+
+- B.S., Statistics and Wildlife Biology, December 2014, Magna Cum Laude with Honors
+
+## Publications
+
+::: {#refs}
+:::
+
+## Works in Progress
+
+Feng, M.E., Schafer, T.L.J., Che-Castaldo, C., Sherman, M.G., Matteson, D.S., and Che-Castaldo, J.P. *Novel biodiversity indicators based on financial metrics.* Available upon request.
+
+Hoose, B.W., Frisbie, M., Schafer, T.L.J., Wu, X.B., Lopez, R.R., and Pierce, B.L. *Landscape drivers of scaled quail occurrence across a large spatiotemporal scale: implications for habitat management.* In revision for Journal of Wildlife Management.
+
+## Software
+
+Kowal D., Wu H., Schafer, T.L.J. (maintainer), Cho J., Matteson D.S. (2025). dsp: Dynamic Shrinkage Process and Change Point Detection. R package version 1.2.0. [CRAN.R-project.org/package=dsp](https://CRAN.R-project.org/package=dsp)
+
+## Book Reviews
+
+Schafer, T.L.J. (2023). Review of *Statistics for Ecologists: A Frequentist and Bayesian Treatment of Modern Regression Models* by John Fieberg (Ed.). *Journal of Wildlife Management*, 87: e22464.
+
+## Grants and Funding
+
+| Source | Role | Amount | Year |
+|---|---|---|---|
+| Sandia National Labs — "Machine Learning For Data-Driven Closure Models In Earth Systems" | PI | \$270,000 | 2023 |
+| National Park Service — "Generate a quantitative assessment of the implications of, and alternatives to, fully opening Johns Hopkins Inlet to cruise ship visitation" | PI | \$112,000 | 2023 |
+| National Park Service — Supplement to the above | PI | \$48,000 | 2024 |
+
+## Oral Presentations
+
+Practical Lessons in Ecological Data Analysis. Joint Statistical Meetings, Nashville, Tennessee. August 2025.
+
+Temporal Embeddings for Animal Movement Trajectory Interpolation. (Invited) The International Environmetrics Society Conference, Adelaide, Australia. December 2024.
+
+Innovative Bayesian Approaches for Robust Trend Filtering and Changepoint Detection in Complex Time Series.
+
+- (Invited) Department of Statistics, University of California Santa Cruz. March 2025.
+- (Invited) National Institute for Applied Statistics Research Australia, University of Wollongong, Australia. December 2024.
+- (Invited) Department of Statistics, Purdue University. November 2024.
+
+Drift vs Shift: Decoupling Trends and Changepoint Analysis. (Invited; Technometrics Session) Fall Technical Conference, Nashville, Tennessee. October 2024.
+
+Statistics Machine Learning Data-Driven Closure Models
+
+- ICSA 2025 Applied Statistics Symposium, Storrs, Connecticut. June 2025.
+- (Invited) SIAM Conference on Computational Science and Engineering, Fort Worth, Texas. February 2025.
+- USACM Thematic Conference on Uncertainty Quantification for Machine Learning Integrated Physics Modeling, Arlington, Virginia. August 2024.
+
+Bayesian models for complex animal movement data
+
+- International Statistical Ecology Conference, Swansea, Wales. July 2024.
+- (Invited) ISBA World Meeting, Venice, Italy. July 2024.
+- (Invited) Conference On Applied Statistics In Agriculture And Natural Resources, Ames, Iowa. May 2024.
+
+Reinforcement Learning and Step Selection Analysis for Animal Movement Data.
+
+- (Invited) Envibayes Workshop, Fort Collins, Colorado. September 2023.
+- (Invited) WNAR, Anchorage, Alaska. June 2023.
+- Joint Statistical Meetings, Washington, D.C. August 2022.
+
+Trend Filtering with Adaptive Bayesian Changepoint Analysis for Count Time Series.
+
+- Joint Statistical Meetings, Portland, Oregon. August 2024.
+- (Invited) Department of Mathematics & Statistics, South Dakota State University. November 2023.
+- (Invited) University of Missouri 60th Anniversary Conference, Columbia, Missouri. October 2023.
+- Joint Statistical Meetings, Toronto, Ontario, Canada. August 2023.
+- (Invited) SRCOS, Waco, Texas. June 2023.
+- (Invited) Conference on Advances in Time Series Analysis, Chicago, Illinois. May 2023.
+- (Invited) Department of Statistics, University of California Santa Cruz. February 2023.
+- (Invited) Entomological Society of America Annual Meeting, Vancouver, British Columbia, Canada. November 2022.
+- (Invited) Department of Statistics, Kansas State University. November 2022.
+- (Invited) Institute of Mathematical Statistics Annual Meeting, London, U.K. June 2022.
+
+Bayesian Inverse Reinforcement Learning for Collective Animal Movement.
+
+- (Invited; Discussion) Applied Biodiversity Sciences Reading Group, Texas A&M University. March 2025.
+- (Invited) School of Mathematics and Statistics, San Diego State University. February 2022.
+- (Invited) Department of Statistics and Applied Probability, University of California Santa Barbara. February 2022.
+- (Invited) Department of Statistics, Pennsylvania State University. January 2022.
+- (Invited) Department of Statistics, Florida State University. January 2022.
+- (Invited) Department of Statistics, University of Kentucky. January 2022.
+- (Invited) School of Mathematics and Statistics, University of Melbourne. December 2022.
+- (Invited) Department of Mathematical Sciences, University of Arkansas. December 2022.
+- (Invited) Department of Statistics, Texas A&M University. December 2022.
+- (Invited) Department of Mathematical Sciences, Montana State University. December 2022.
+
+Inverse reinforcement learning for animal movement data.
+
+- (Invited) The Wildlife Society Annual Conference, Spokane, Washington. November 2022.
+- Women in Statistics and Data Science, Virtual. October 2021.
+
+Continuous shrinkage priors with dependence. Joint Statistical Meetings, Virtual. July 2021.
+
+Inverse reinforcement learning for agent-based models.
+
+- (Invited) The Wildlife Society Annual Conference, Lexington, Kentucky. November 2023.
+- (Invited) SAMSI Pros and Cons of ABMs for Epidemic Modeling, Virtual. June 2021.
+- Joint Statistical Meetings, Virtual. August 2020.
+
+Inverse reinforcement learning for animal behavior from environmental cues. (Invited) ENAR 2020 Spring Meeting, Virtual. March 2020.
+
+Alternative learning strategies for collective animal movement. Joint Statistical Meetings, Denver, Colorado. August 2019.
+
+Estimating behavioral transition probabilities of greater white-fronted geese using non-homogenous Markov models. Joint Statistical Meetings, Vancouver, British Columbia. July 2018.
+
+Black Bear Den Characteristics and Site Selection Near Urban Aspen, Colorado. The Wildlife Society Annual Conference, Pittsburgh, Pennsylvania. October 2014. *Awarded best undergraduate contributed paper.*
+
+## Poster Presentations
+
+Trend Filtering with Adaptive Bayesian Changepoint Analysis for Count Time Series.
+
+- ASA Section for Statistics in the Environment Workshop. October 2022.
+- IMS New Researchers' Conference, Washington D.C. August 2022.
+
+Non-linear forecasting with echo state networks. Ecological Forecasting Initiative, Washington D.C. May 2019.
+
+Estimating environmental effects on behavioral transitions of geese.
+
+- Missouri Natural Resources Conference, Osage Beach, Missouri. February 2019.
+- Statistics and the Environment section of the American Statistical Association biennial workshop, Asheville, North Carolina. October 2018.
+
+## Awards
+
+| Award | Year |
+|---|---|
+| ConocoPhillips Data Science Faculty Fellow | 2023, 2024 |
+| NSF Graduate Research Fellowship | 2016 |
+| Benjamin A. Gilman International Scholarship | 2013 |
+
+## Teaching Experience
+
+**Professor**, Texas A&M University, Statistics Dept., College Station, TX
+
+- Reproducible Computations (STAT 600) — Fall 2024, 2025
+- Database & Computing Tools for Data Science (STAT 624) — Spring 2024, 2025
+- Statistical Computing (STAT 404) — Spring 2023, Fall 2023, 2024
+- Frontiers: Reinforcement Learning (STAT 691) — Fall 2023
+- Statistical Methods (STAT 303) — Fall 2022
+
+**Graduate Instructor**, University of Missouri, Statistics Dept., Columbia, MO, 2015 – 2017
+
+- Introductory Statistical Reasoning (STAT 1200)
+- Introduction to Probability and Statistics I (STAT 2500)
+- Introduction to Probability and Statistics II (STAT 3500)
+
+**Teaching Assistant**, Colorado State University, Biology Dept., Fort Collins, CO, 2011
+
+- Biology of Organisms Lab (LIFE 103)
+
+## Professional Development
+
+National Center for Faculty Development & Diversity (NCFDD) Faculty Success Program, Spring 2023.
+
+## Professional Activities
+
+- Secretary, ASA Section for Statistics and the Environment, 2025 – current
+- Treasurer, ASA Section for Statistics and the Environment, 2024
+- Associate Editor, Journal of Applied Statistics: Environmental Statistics and Data Science
+- Associate Editor, Data Science in Science
+- Lead Organizer, Knowledge Discovery and Data Mining (KDD) 2021 Workshop — *Data-Driven Exploration of Interconnected Risks in Complex Human-Natural Systems*, Aug 2021
+- Instructor, High school STAT Camp, 2023, 2025
+- Member, Early Career Women in Statistics Mutual Mentoring, 2020 – 2023
+- Member, Ecological Forecasting Initiative Student Working Group, 2019 – Current (R-Shiny Working Group Leader, Jun – Nov 2020)
+- Twitter Outreach, Code-RLadies, 2019 – 2020
+- Organizer and Mentor, ASA Datafest Mid-MO, 2017 – 2020
+- Mentor, Sports Statistics Initiative, 2019 – 2020
+- Graduate Student Leader, Space-Time Reading Group, 2018 – 2019
+- Vice President, Statistics Graduate Student Association, 2015 – 2017
+
+## Referee
+
+Journal of the American Statistical Association · Statistical Methods in Medical Research · Data Science in Science · Stat · Journal of the American Statistical Association: Applications and Case Studies · Environmetrics · Sankhya B · PRX Life · The American Statistician · Journal of the Royal Statistical Society Series A · Ecology and Evolution · PLOS ONE · Frontiers in Applied Mathematics and Statistics · Spatial Statistics · Biometrics · Journal of Agricultural, Biological and Environmental Statistics · Journal of the Royal Statistical Society Series C · PNAS · Ecology · Methods in Ecology and Evolution · Society for Petroleum Engineering Journal · Ursus · Biology Letters
+
+## Mentoring Experience
+
+**Postdoctoral Research Associates**
+
+- Benjamin Hoose, 2023 – current
+
+**Graduate Students (Current)**
+
+- Daniel Drennan (TAMU, PhD-Statistics), Committee Chair
+- Donald Turner III (TAMU, PhD-Statistics), Committee Member
+- John Paul Acosta (TAMU, MS-Statistical Data Science), Project Advisor
+- Tara McNeil (TAMU, PhD-Entomology), Committee Member
+- Maria Teleki (TAMU, PhD-Computer Science), Committee Member
+- Vincenzo Donofrio (TAMU, MS/PhD-Astronomy), Committee Member
+- Pooja Sandeep Joshi (TAMU, PhD-Math), Committee Member
+
+**Graduate Students (Graduated)**
+
+- Georgia Smits (Cornell University, PhD-Statistics), Project Advisor, 2025
+- Elizabeth Chun (TAMU, MS-Statistical Data Science), Project Advisor, 2025
+- Dave Pearce (TAMU, MS-Wildlife Biology), Committee Member, 2025
+- Benjamin Hoose (TAMU, PhD-Wildlife Biology), Committee Member, 2024
+- Valerie Espinosa (TAMU, MS-Statistics), Project Advisor, 2024
+- Madeleine Barham (TAMU, MS-Wildlife Biology), Committee Member, ABD 2023
+
+## Professional Memberships
+
+Society for Industrial and Applied Mathematics · The International Environmetrics Society · Institute of Mathematical Statistics · American Statistical Association · Association for Computing Machinery · The Wildlife Society
