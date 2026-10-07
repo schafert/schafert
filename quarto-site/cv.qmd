@@ -62,8 +62,6 @@ Principal Investigator: David Matteson
 
 *Available upon request.*
 
-Schafer, T.L.J., Feng, M.E., Che-Castaldo, C., Sherman, M.G., Matteson, D.S., and Che-Castaldo, J.P. *Novel biodiversity indicators based on financial metrics.*
-
 Drennan, D.J., Neal, K., Portone, T., Bandy, R., Khalil, M., and Schafer, T.L.J. *Bayesian discovery for dynamical systems with latent gradients.*
 
 Cho, J.B., Kowal, D.R., Wu, H., Matteson, D.S., and Schafer, T.L.J. *dsp: An R package for Bayesian time-series modeling with dynamic shrinkage processes.*
@@ -88,7 +86,7 @@ Schafer, T.L.J. (2023). Review of *Statistics for Ecologists: A Frequentist and 
 
 Practical Lessons in Ecological Data Analysis. Joint Statistical Meetings, Nashville, Tennessee. August 2025.
 
-Temporal Embeddings for Animal Movement Trajectory Interpolation. (Invited) The International Environmetrics Society Conference, Adelaide, Australia. December 2024.
+Temporal Embeddings for Animal Movement Trajectory Interpolation. The International Environmetrics Society Conference, Adelaide, Australia. December 2024.
 
 Innovative Bayesian Approaches for Robust Trend Filtering and Changepoint Detection in Complex Time Series.
 
@@ -101,13 +99,13 @@ Drift vs Shift: Decoupling Trends and Changepoint Analysis. (Invited; Technometr
 Statistics Machine Learning Data-Driven Closure Models
 
 - ICSA 2025 Applied Statistics Symposium, Storrs, Connecticut. June 2025.
-- (Invited) SIAM Conference on Computational Science and Engineering, Fort Worth, Texas. February 2025.
+- SIAM Conference on Computational Science and Engineering, Fort Worth, Texas. February 2025.
 - USACM Thematic Conference on Uncertainty Quantification for Machine Learning Integrated Physics Modeling, Arlington, Virginia. August 2024.
 
 Bayesian models for complex animal movement data
 
 - International Statistical Ecology Conference, Swansea, Wales. July 2024.
-- (Invited) ISBA World Meeting, Venice, Italy. July 2024.
+- ISBA World Meeting, Venice, Italy. July 2024.
 - (Invited) Conference On Applied Statistics In Agriculture And Natural Resources, Ames, Iowa. May 2024.
 
 Reinforcement Learning and Step Selection Analysis for Animal Movement Data.
@@ -125,7 +123,7 @@ Trend Filtering with Adaptive Bayesian Changepoint Analysis for Count Time Serie
 - (Invited) SRCOS, Waco, Texas. June 2023.
 - (Invited) Conference on Advances in Time Series Analysis, Chicago, Illinois. May 2023.
 - (Invited) Department of Statistics, University of California Santa Cruz. February 2023.
-- (Invited) Entomological Society of America Annual Meeting, Vancouver, British Columbia, Canada. November 2022.
+- Entomological Society of America Annual Meeting, Vancouver, British Columbia, Canada. November 2022.
 - (Invited) Department of Statistics, Kansas State University. November 2022.
 - (Invited) Institute of Mathematical Statistics Annual Meeting, London, U.K. June 2022.
 
@@ -144,18 +142,18 @@ Bayesian Inverse Reinforcement Learning for Collective Animal Movement.
 
 Inverse reinforcement learning for animal movement data.
 
-- (Invited) The Wildlife Society Annual Conference, Spokane, Washington. November 2022.
+- The Wildlife Society Annual Conference, Spokane, Washington. November 2022.
 - Women in Statistics and Data Science, Virtual. October 2021.
 
 Continuous shrinkage priors with dependence. Joint Statistical Meetings, Virtual. July 2021.
 
 Inverse reinforcement learning for agent-based models.
 
-- (Invited) The Wildlife Society Annual Conference, Lexington, Kentucky. November 2023.
+- The Wildlife Society Annual Conference, Lexington, Kentucky. November 2023.
 - (Invited) SAMSI Pros and Cons of ABMs for Epidemic Modeling, Virtual. June 2021.
 - Joint Statistical Meetings, Virtual. August 2020.
 
-Inverse reinforcement learning for animal behavior from environmental cues. (Invited) ENAR 2020 Spring Meeting, Virtual. March 2020.
+Inverse reinforcement learning for animal behavior from environmental cues. ENAR 2020 Spring Meeting, Virtual. March 2020.
 
 Alternative learning strategies for collective animal movement. Joint Statistical Meetings, Denver, Colorado. August 2019.
 

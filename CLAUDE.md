@@ -81,10 +81,6 @@ else here.
   OneDrive `TSchafer_CV.tex` was folded in on 2026-10-07 and is retired).
   It renders to HTML and to `TSchafer_CV.pdf` via Typst. Keep `cv.qmd`
   free of HTML-only markup outside `content-visible when-format="html"`.
-- Open question for the user: the old PDF CV marked several talks
-  "(Invited)" that the newer `.tex` did not (Adelaide TIES 2024, SIAM CSE
-  2025, ISBA 2024, Entomological Soc. 2022, TWS 2022 and 2023, ENAR 2020).
-  `cv.qmd` currently keeps the "(Invited)" labels.
 - Note: `quarto publish netlify` needs an interactive terminal; it fails
   under Claude Code's `!` prefix. Local Quarto 1.4 can't build the Typst PDF;
   CI uses the latest Quarto.
