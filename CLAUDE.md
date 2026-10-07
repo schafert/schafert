@@ -1,27 +1,24 @@
 # Project context for Claude Code
 
-This repo is Toryn Schafer's academic website (toryn.netlify.app), currently
-mid-migration from a legacy Hugo theme to Quarto. Read this before doing
-anything else here.
+This repo is Toryn Schafer's academic website (toryn.netlify.app). It was
+migrated from a legacy Hugo theme to Quarto. Read this before doing anything
+else here.
 
-## Current state (as of 2026-09-17)
+## Current state (as of 2026-10-07)
 
-Two sites coexist in this repo right now:
+**`quarto-site/` is the LIVE site.** Migration complete and cut over:
 
-1. **`content/`, `layouts/`, `config.yaml`, etc. — the LIVE Hugo site.**
-   Do not break this. It's built with `hugo --gc --minify -b $URL` per
-   `netlify.toml` and deploys to the live toryn.netlify.app.
-
-2. **`quarto-site/` — a NEW Quarto site, built but UNTESTED and NOT yet
-   deployed anywhere.** This is the migration target. See
-   `quarto-site/DEPLOY.md` for full deploy instructions.
-
-**Critical caveat: the Quarto site was built by an agent with no Quarto or R
-installed in its sandbox.** Every file was hand-written and only
-mechanically checked (YAML parses, `:::` div fences balance, referenced
-files exist on disk) — none of it has actually been rendered. Treat
-`quarto-site/` as a first draft that needs a real `quarto preview` pass, not
-finished work.
+- Rendered and checked locally with Quarto, then published. Netlify project
+  `toryn` (id in `quarto-site/_publish.yml`) serves toryn.netlify.app.
+- Deploys are automatic: any push touching `quarto-site/**` runs
+  `.github/workflows/quarto-publish.yml` (uses the `NETLIFY_AUTH_TOKEN` repo
+  secret). This Netlify project is NOT linked to GitHub; the Action deploys it.
+- The old Hugo site still exists as Netlify project `toryn-hugo`, unlinked
+  from GitHub (frozen at its last deploy) as a fallback. The Hugo files
+  (`content/`, `layouts/`, `config.yaml`, `netlify.toml`, `R/`) are still in
+  the repo but no longer deployed anywhere. The `Sync publications from
+  BibTeX` workflow is disabled in GitHub (`gh workflow disable`), not deleted.
+  Remove all of this once the user is confident in the new site.
 
 ## How we got here
 
@@ -71,7 +68,15 @@ finished work.
    in any `.qmd` file, so CI needs no R/Python setup at all — just Quarto
    itself.
 
-## Immediate next steps
+## Next steps (user's stated priorities)
+
+- Update `teaching.qmd` from `static/files/TSchafer_CV.pdf` (PDF may be a
+  semester or two behind; ask the user about recent terms).
+- Discuss a better bibliography automation workflow with the user.
+- Note: `quarto publish netlify` needs an interactive terminal; it fails
+  under Claude Code's `!` prefix.
+
+## Original migration steps (done, kept for history)
 
 1. `cd quarto-site && quarto preview` — first real test of all of this.
    Check Home, Publications, CV, Teaching pages render correctly and look
