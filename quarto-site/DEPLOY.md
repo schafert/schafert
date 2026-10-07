@@ -70,4 +70,4 @@ page and `TSchafer_CV.pdf` (via Typst, bundled with Quarto) from it, and the
 publication list in both comes from `LifeWork.bib`. The old address
 `/files/TSchafer_CV.pdf` redirects to the new PDF (see `_redirects`).
 
-Building the PDF locally needs a recent Quarto (1.10 works; 1.4 fails).
+Building the PDF locally needs a recent Quarto (1.10 works; 1.4 does not).

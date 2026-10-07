@@ -82,8 +82,8 @@ else here.
   It renders to HTML and to `TSchafer_CV.pdf` via Typst. Keep `cv.qmd`
   free of HTML-only markup outside `content-visible when-format="html"`.
 - Note: `quarto publish netlify` needs an interactive terminal; it fails
-  under Claude Code's `!` prefix. Local Quarto 1.4 can't build the Typst PDF;
-  CI uses the latest Quarto.
+  under Claude Code's `!` prefix. Local Quarto is 1.10.19 (updated
+  2026-10-07), same as CI.
 
 ## Original migration steps (done, kept for history)
 
