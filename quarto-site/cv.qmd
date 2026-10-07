@@ -4,15 +4,30 @@ bibliography: LifeWork.bib
 csl: apa-cv.csl
 nocite: |
   @*
+format:
+  html:
+    format-links: false
+  typst:
+    title: "Toryn L. J. Schafer"
+    subtitle: "Curriculum Vitae · toryn.netlify.app"
+    output-file: TSchafer_CV.pdf
+    citeproc: true
+    papersize: us-letter
+    margin:
+      x: 0.75in
+      y: 0.75in
+    fontsize: 10pt
 ---
 
-[Download PDF version](files/TSchafer_CV.pdf){.btn .btn-outline-primary role="button"}
+::: {.content-visible when-format="html"}
+[Download PDF version](TSchafer_CV.pdf){.btn .btn-outline-primary role="button"}
+:::
 
 ## Contact Information
 
 Toryn L. J. Schafer \
 Department of Statistics, Texas A&M University \
-Blocker 435, College Station, TX 77843 \
+Blocker 458 E, College Station, TX 77843 \
 [toryn27@gmail.com](mailto:toryn27@gmail.com)
 
 ## Experience
@@ -45,9 +60,13 @@ Principal Investigator: David Matteson
 
 ## Works in Progress
 
-Feng, M.E., Schafer, T.L.J., Che-Castaldo, C., Sherman, M.G., Matteson, D.S., and Che-Castaldo, J.P. *Novel biodiversity indicators based on financial metrics.* Available upon request.
+*Available upon request.*
 
-Hoose, B.W., Frisbie, M., Schafer, T.L.J., Wu, X.B., Lopez, R.R., and Pierce, B.L. *Landscape drivers of scaled quail occurrence across a large spatiotemporal scale: implications for habitat management.* In revision for Journal of Wildlife Management.
+Schafer, T.L.J., Feng, M.E., Che-Castaldo, C., Sherman, M.G., Matteson, D.S., and Che-Castaldo, J.P. *Novel biodiversity indicators based on financial metrics.*
+
+Drennan, D.J., Neal, K., Portone, T., Bandy, R., Khalil, M., and Schafer, T.L.J. *Bayesian discovery for dynamical systems with latent gradients.*
+
+Cho, J.B., Kowal, D.R., Wu, H., Matteson, D.S., and Schafer, T.L.J. *dsp: An R package for Bayesian time-series modeling with dynamic shrinkage processes.*
 
 ## Software
 
@@ -60,7 +79,7 @@ Schafer, T.L.J. (2023). Review of *Statistics for Ecologists: A Frequentist and 
 ## Grants and Funding
 
 | Source | Role | Amount | Year |
-|---|---|---|---|
+|------------------------------------------------------------|------|----------|------|
 | Sandia National Labs — "Machine Learning For Data-Driven Closure Models In Earth Systems" | PI | \$270,000 | 2023 |
 | National Park Service — "Generate a quantitative assessment of the implications of, and alternatives to, fully opening Johns Hopkins Inlet to cruise ship visitation" | PI | \$112,000 | 2023 |
 | National Park Service — Supplement to the above | PI | \$48,000 | 2024 |
@@ -208,7 +227,7 @@ National Center for Faculty Development & Diversity (NCFDD) Faculty Success Prog
 
 ## Referee
 
-Journal of the American Statistical Association · Statistical Methods in Medical Research · Data Science in Science · Stat · Journal of the American Statistical Association: Applications and Case Studies · Environmetrics · Sankhya B · PRX Life · The American Statistician · Journal of the Royal Statistical Society Series A · Ecology and Evolution · PLOS ONE · Frontiers in Applied Mathematics and Statistics · Spatial Statistics · Biometrics · Journal of Agricultural, Biological and Environmental Statistics · Journal of the Royal Statistical Society Series C · PNAS · Ecology · Methods in Ecology and Evolution · Society for Petroleum Engineering Journal · Ursus · Biology Letters
+Biology Letters · Biometrics · Data Science in Science · Ecology · Ecology and Evolution · Environmetrics · Frontiers in Applied Mathematics and Statistics · Journal of Agricultural, Biological and Environmental Statistics · Journal of Applied Statistics · Journal of Applied Statistics: Environmental Statistics and Data Science · Journal of the American Statistical Association · Journal of the American Statistical Association: Applications and Case Studies · Journal of the Royal Statistical Society Series A · Journal of the Royal Statistical Society Series C · Landscape Ecology · Methods in Ecology and Evolution · PLOS ONE · PNAS · PRX Life · Sankhya B · Society for Petroleum Engineering Journal · Spatial Statistics · Stat · Statistical Methods in Medical Research · Statistics and Computing · The American Statistician · Ursus
 
 ## Mentoring Experience
 

@@ -50,6 +50,24 @@ live side by side first.
 
 ## Publications workflow going forward
 
-Same as before, just simpler: edit `LifeWork.bib` in this folder, push. No R
-script step — Quarto's citeproc renders the bibliography directly into both
-`publications.qmd` and the Publications section of `cv.qmd` natively.
+New papers arrive automatically. On the 1st of each month,
+`.github/workflows/orcid-sync.yml` checks the ORCID record for works not yet
+in `LifeWork.bib` and opens a pull request adding them, using the
+publisher's DOI metadata. Review the entry (for a preprint, replace the
+`Preprint` placeholder with the journal it is under review at), then merge.
+Merging publishes the site. Run it any time from the repo's **Actions** tab
+(**Sync publications from ORCID → Run workflow**).
+
+To skip an ORCID work for good, delete its entry from `LifeWork.bib` in the
+pull request but keep its line in `_orcid-seen.txt`, then merge.
+
+Adding a paper by hand still works too: edit `LifeWork.bib`, push.
+
+## The CV
+
+`cv.qmd` is the single source for the CV. Every deploy builds both the CV web
+page and `TSchafer_CV.pdf` (via Typst, bundled with Quarto) from it, and the
+publication list in both comes from `LifeWork.bib`. The old address
+`/files/TSchafer_CV.pdf` redirects to the new PDF (see `_redirects`).
+
+Building the PDF locally needs a recent Quarto (1.10 works; 1.4 fails).

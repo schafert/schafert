@@ -1,0 +1,27 @@
+# ORCID works already handled by .github/scripts/orcid_sync.py.
+# One ORCID put-code per line; anything after # is a note.
+# A work listed here is never proposed again, even if it is not in
+# LifeWork.bib (that is how to skip a work for good).
+
+227803517  # in bib: Landscape drivers of scaled quail occurrence across a broad spatiotemp
+212040434  # in bib: A multi-stage Bayesian approach to fit spatial point process models
+212040175  # in bib: Comparison of machine learning interpolation models for movement traje
+212042762  # skip: R package: dsp: Dynamic Shrinkage Process and Change Point Detection
+212040172  # in bib: Drift versus Shift: Decoupling Trends and Changepoint Analysis
+212040173  # in bib: Locally adaptive shrinkage priors for trends and breaks in count time 
+212040174  # in bib: Trend and variance adaptive Bayesian changepoint analysis and local ou
+125455935  # in bib: Time-varying effects of local weather on behavior and probability of b
+212040161  # in bib: Clustering future scenarios based on predicted range maps
+212040170  # in bib: Joint use of location and acceleration data reveals influences on tran
+212040163  # in bib: Role of variable renewable energy penetration on electricity price and
+212040169  # skip: book review: Statistics for ecologists: A frequentist and bayesian treatment of mod
+118121572  # in bib: Analysis of animal-related electric outages using species distribution
+212040165  # in bib: Analysis of animal-related electric outages using species distribution
+212040164  # in bib: Bayesian inverse reinforcement learning for collective animal movement
+212040167  # in bib: Joint analysis of structured and semi-structured community science dat
+212040166  # in bib: Critical Risk Indicators (CRIs) for the electric power grid: a survey 
+212040177  # in bib: Distributed lag models to identify the cumulative effects of training 
+78946080  # in bib: A Bayesian Markov Model with Pólya-Gamma Sampling for Estimating Indiv
+212040171  # skip: dissertation: Alternative learning strategies for spatio-temporal processes of compl
+212040162  # in bib: Alternative Learning Strategies for Collective Animal Movement
+78946112  # in bib: American black bear den-site selection and characteristics in an urban

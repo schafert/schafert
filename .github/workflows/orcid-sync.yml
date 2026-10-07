@@ -1,0 +1,60 @@
+name: Sync publications from ORCID
+
+# Checks the ORCID record once a month for works not yet in
+# quarto-site/LifeWork.bib and opens a pull request adding them.
+# Merging that pull request publishes them (quarto-publish.yml runs).
+# Can also be run by hand from the Actions tab.
+
+on:
+  schedule:
+    - cron: '0 14 1 * *'   # 1st of each month, 14:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Skip if last proposal is still open
+        id: open
+        run: |
+          if [ -n "$(gh pr list --head orcid-sync --state open --json number --jq '.[].number')" ]; then
+            echo "An ORCID pull request is still open; merge or close it first."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Set up Python
+        if: steps.open.outputs.skip != 'true'
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Look for new ORCID works
+        if: steps.open.outputs.skip != 'true'
+        id: sync
+        run: |
+          python .github/scripts/orcid_sync.py
+          if [ -f "$SUMMARY_FILE" ]; then echo "found=true" >> "$GITHUB_OUTPUT"; fi
+        env:
+          SUMMARY_FILE: ${{ runner.temp }}/orcid-sync-summary.md
+
+      - name: Open pull request
+        if: steps.sync.outputs.found == 'true'
+        uses: peter-evans/create-pull-request@v8
+        with:
+          branch: orcid-sync
+          delete-branch: true
+          title: New publications from ORCID
+          commit-message: Add new works from ORCID to LifeWork.bib
+          body-path: ${{ runner.temp }}/orcid-sync-summary.md
+          add-paths: |
+            quarto-site/LifeWork.bib
+            quarto-site/_orcid-seen.txt

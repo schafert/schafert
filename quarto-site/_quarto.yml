@@ -4,6 +4,8 @@ project:
   render:
     - "*.qmd"
     - "!DEPLOY.md"
+  resources:
+    - _redirects
 
 website:
   title: "Toryn Schafer"

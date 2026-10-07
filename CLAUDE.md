@@ -70,11 +70,24 @@ else here.
 
 ## Next steps (user's stated priorities)
 
-- Update `teaching.qmd` from `static/files/TSchafer_CV.pdf` (PDF may be a
-  semester or two behind; ask the user about recent terms).
-- Discuss a better bibliography automation workflow with the user.
+- Publications: monthly `.github/workflows/orcid-sync.yml` runs
+  `.github/scripts/orcid_sync.py`, which compares the ORCID record with
+  `LifeWork.bib` (by ORCID put-code via `quarto-site/_orcid-seen.txt`, then
+  DOI, then title) and opens a PR. Preprints are wanted; they get a
+  `journal = {Preprint}` placeholder the user replaces in the PR. Several
+  ORCID titles are old working titles that differ from the bib, which is why
+  the put-code list exists.
+- CV: `cv.qmd` is now the source of truth for the CV (the user's old
+  OneDrive `TSchafer_CV.tex` was folded in on 2026-10-07 and is retired).
+  It renders to HTML and to `TSchafer_CV.pdf` via Typst. Keep `cv.qmd`
+  free of HTML-only markup outside `content-visible when-format="html"`.
+- Open question for the user: the old PDF CV marked several talks
+  "(Invited)" that the newer `.tex` did not (Adelaide TIES 2024, SIAM CSE
+  2025, ISBA 2024, Entomological Soc. 2022, TWS 2022 and 2023, ENAR 2020).
+  `cv.qmd` currently keeps the "(Invited)" labels.
 - Note: `quarto publish netlify` needs an interactive terminal; it fails
-  under Claude Code's `!` prefix.
+  under Claude Code's `!` prefix. Local Quarto 1.4 can't build the Typst PDF;
+  CI uses the latest Quarto.
 
 ## Original migration steps (done, kept for history)
 
@@ -107,9 +120,4 @@ else here.
   auditing, never migrated because there was nothing real to migrate. Worth
   a final check with the user before fully retiring the Hugo site, in case
   any of it was meant to be filled in rather than deleted.
-- No PDF-from-bib automation for the CV's publication list beyond what
-  Quarto's citeproc already does on the HTML page — the downloadable PDF
-  linked from `cv.qmd` is still the static `TSchafer_CV.pdf`, not
-  regenerated from the bib. If the user wants the PDF itself automated too,
-  RenderCV (YAML→Typst→PDF) was discussed as the natural pairing but not
-  built.
+- PDF CV automation: done 2026-10-07 (Quarto Typst output of `cv.qmd`).
