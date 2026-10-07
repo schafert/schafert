@@ -8,10 +8,6 @@ nocite: |
 
 [Download PDF version](files/TSchafer_CV.pdf){.btn .btn-outline-primary role="button"}
 
-::: {.callout-note}
-The **Publications** section below renders automatically from the same [`LifeWork.bib`](LifeWork.bib) file used on the [Publications](publications.qmd) page — add a paper there once and it appears in both places. Everything else on this page (experience, grants, talks, service) is maintained directly in `cv.qmd`.
-:::
-
 ## Contact Information
 
 Toryn L. J. Schafer \
@@ -174,11 +170,11 @@ Estimating environmental effects on behavioral transitions of geese.
 
 **Professor**, Texas A&M University, Statistics Dept., College Station, TX
 
-- Reproducible Computations (STAT 600) — Fall 2024, 2025
-- Database & Computing Tools for Data Science (STAT 624) — Spring 2024, 2025
+- Reproducible Computations (STAT 600) — Fall 2024, 2025, 2026
+- Database & Computing Tools for Data Science (STAT 624) — Spring 2024, 2025, 2026
 - Statistical Computing (STAT 404) — Spring 2023, Fall 2023, 2024
 - Frontiers: Reinforcement Learning (STAT 691) — Fall 2023
-- Statistical Methods (STAT 303) — Fall 2022
+- Statistical Methods (STAT 303) — Fall 2022, 2026
 
 **Graduate Instructor**, University of Missouri, Statistics Dept., Columbia, MO, 2015 – 2017
 
@@ -201,7 +197,7 @@ National Center for Faculty Development & Diversity (NCFDD) Faculty Success Prog
 - Associate Editor, Journal of Applied Statistics: Environmental Statistics and Data Science
 - Associate Editor, Data Science in Science
 - Lead Organizer, Knowledge Discovery and Data Mining (KDD) 2021 Workshop — *Data-Driven Exploration of Interconnected Risks in Complex Human-Natural Systems*, Aug 2021
-- Instructor, High school STAT Camp, 2023, 2025
+- Instructor, High school STAT Camp, 2023, 2025, 2026
 - Member, Early Career Women in Statistics Mutual Mentoring, 2020 – 2023
 - Member, Ecological Forecasting Initiative Student Working Group, 2019 – Current (R-Shiny Working Group Leader, Jun – Nov 2020)
 - Twitter Outreach, Code-RLadies, 2019 – 2020

@@ -4,10 +4,17 @@ title: "Teaching"
 
 ## Texas A&M University
 
-- STAT 624: S2024
-- STAT 600: F2024
-- STAT 404: F2024, F2023, S2023
-- STAT 303: F2022
+*Statistics Dept., College Station, TX*
+
+- Reproducible Computations (STAT 600): Fall 2024, Fall 2025, Fall 2026
+- Database & Computing Tools for Data Science (STAT 624): Spring 2024, Spring 2025, Spring 2026
+- Statistical Computing (STAT 404): Spring 2023, Fall 2023, Fall 2024
+- Frontiers: Reinforcement Learning (STAT 691): Fall 2023
+- Statistical Methods (STAT 303): Fall 2022, Fall 2026
+
+## Instructor, High School STAT Camp
+
+2023, 2025, 2026
 
 ## Lead Workshop Organizer, Knowledge Discovery and Data Mining (KDD) 2021
 
