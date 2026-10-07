@@ -5,6 +5,7 @@ image: avatar.png
 about:
   template: trestles
   image-shape: round
+  image-width: 12em
   links:
     - icon: twitter
       text: Twitter

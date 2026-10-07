@@ -5,3 +5,10 @@ $link-color: #6b46c1 !default;
 .navbar-title {
   font-weight: 600;
 }
+
+// Home page: narrower photo column so the bio gets more of the width
+@include media-breakpoint-up(lg) {
+  div.quarto-about-trestles .about-entity {
+    flex: 0 0 32%;
+  }
+}
