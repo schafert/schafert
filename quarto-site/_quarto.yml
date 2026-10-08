@@ -6,6 +6,8 @@ project:
     - "!DEPLOY.md"
   resources:
     - _redirects
+    - google3f70da9411146510.html
+    - files/*.pdf
 
 website:
   title: "Toryn Schafer"
