@@ -28,14 +28,14 @@ I am an Assistant Professor in the Department of Statistics at Texas A&M Univers
 ## News
 
 ::: {.news-feed}
-- **October 2026:** Donald Turner III started a full-time position at Exponent.
+- **October 2026:** Donald Turner III started a full-time position as a Statistical Scientist at Exponent.
 - **October 2026:** Wrapped up the three-year Sandia National Labs project on machine learning for data-driven closure models in Earth systems.
 - **September 2026:** New paper led by former postdoc Benjamin Hoose in *The Journal of Wildlife Management*, "[Landscape drivers of scaled quail occurrence across a broad spatiotemporal extent](https://doi.org/10.1002/jwmg.70285)."
 - **September 2026:** New preprint, "[Quantifying temporal instability in ecological assemblages using modern portfolio theory](https://doi.org/10.22541/authorea.15009261/v1)," now under review at *Ecography*.
 - **July 2026:** Released version 1.6.0 of the R package [dsp](https://CRAN.R-project.org/package=dsp).
 - **July 2026:** Awarded a Texas A&M [AI Bridge Seed Grant](https://inside.provost.tamu.edu/story/texas-am-awards-first-ai-bridge-seed-grants-fueling-interdisciplinary-innovation/) with Cheng Zhang (Engineering) for "Bridging the Gap in Wildlife Monitoring: A Hybrid AI-Ecological Approach for Cryptic Taxa Detection and Multi-Source Data Fusion."
 - **June 2026:** New paper in *Spatial Statistics*, "[A multi-stage Bayesian approach to fit spatial point process models](https://doi.org/10.1016/j.spasta.2026.100975)," with Ran Ren and Mevin Hooten.
-- **May 2026:** Donald Turner III graduated with his Ph.D. in Statistics from Texas A&M. Congratulations, Donald!
+- **May 2026:** Donald Turner III, co-advised with [Dr. Yang Ni](https://sites.google.com/view/yangnistat), graduated with his Ph.D. in Statistics from Texas A&M. Congratulations, Donald!
 - **May 2026:** Postdoc Benjamin Hoose started a position at the Texas A&M Natural Resources Institute.
 - **February 2026:** New paper led by John Paul Acosta in *Environmental and Ecological Statistics* on [machine learning interpolation of movement trajectories](https://doi.org/10.1007/s10651-026-00713-w).
 - **August 2025:** Released version 1.2.0 of the R package [dsp](https://CRAN.R-project.org/package=dsp) for dynamic shrinkage processes and changepoint detection.
