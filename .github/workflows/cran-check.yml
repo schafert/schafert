@@ -1,0 +1,61 @@
+name: Check CRAN for new package releases
+
+# Checks CRAN once a month for releases of the packages listed in
+# .github/scripts/cran_check.py that are newer than the CV lists, and opens
+# a pull request updating the CV and adding a news item to the home page.
+# Merging that pull request publishes them (quarto-publish.yml runs).
+# Can also be run by hand from the Actions tab.
+
+on:
+  schedule:
+    - cron: '0 14 1 * *'   # 1st of each month, 14:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Skip if last proposal is still open
+        id: open
+        run: |
+          if [ -n "$(gh pr list --head cran-check --state open --json number --jq '.[].number')" ]; then
+            echo "A CRAN pull request is still open; merge or close it first."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Set up Python
+        if: steps.open.outputs.skip != 'true'
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Look for new CRAN releases
+        if: steps.open.outputs.skip != 'true'
+        id: check
+        run: |
+          python .github/scripts/cran_check.py
+          if [ -f "$SUMMARY_FILE" ]; then echo "found=true" >> "$GITHUB_OUTPUT"; fi
+        env:
+          SUMMARY_FILE: ${{ runner.temp }}/cran-check-summary.md
+
+      - name: Open pull request
+        if: steps.check.outputs.found == 'true'
+        uses: peter-evans/create-pull-request@v8
+        with:
+          branch: cran-check
+          delete-branch: true
+          title: New CRAN package release
+          commit-message: Add new CRAN release to CV and news
+          body-path: ${{ runner.temp }}/cran-check-summary.md
+          add-paths: |
+            quarto-site/cv.qmd
+            quarto-site/index.qmd

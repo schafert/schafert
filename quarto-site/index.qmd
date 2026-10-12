@@ -31,15 +31,16 @@ I am an Assistant Professor in the Department of Statistics at Texas A&M Univers
 - **October 2026:** Wrapped up the three-year Sandia National Labs project on machine learning for data-driven closure models in Earth systems.
 - **September 2026:** New paper led by former postdoc Benjamin Hoose in *The Journal of Wildlife Management*, "[Landscape drivers of scaled quail occurrence across a broad spatiotemporal extent](https://doi.org/10.1002/jwmg.70285)."
 - **September 2026:** New preprint, "[Quantifying temporal instability in ecological assemblages using modern portfolio theory](https://doi.org/10.22541/authorea.15009261/v1)," now under review at *Ecography*.
+- **July 2026:** Released version 1.6.0 of the R package [dsp](https://CRAN.R-project.org/package=dsp).
 - **July 2026:** Awarded a Texas A&M [AI Bridge Seed Grant](https://inside.provost.tamu.edu/story/texas-am-awards-first-ai-bridge-seed-grants-fueling-interdisciplinary-innovation/) with Cheng Zhang (Engineering) for "Bridging the Gap in Wildlife Monitoring: A Hybrid AI-Ecological Approach for Cryptic Taxa Detection and Multi-Source Data Fusion."
 - **June 2026:** New paper in *Spatial Statistics*, "[A multi-stage Bayesian approach to fit spatial point process models](https://doi.org/10.1016/j.spasta.2026.100975)," with Ran Ren and Mevin Hooten.
+- **May 2026:** Postdoc Benjamin Hoose started a position at the Texas A&M Natural Resources Institute.
 - **February 2026:** New paper led by John Paul Acosta in *Environmental and Ecological Statistics* on [machine learning interpolation of movement trajectories](https://doi.org/10.1007/s10651-026-00713-w).
 - **August 2025:** Released version 1.2.0 of the R package [dsp](https://CRAN.R-project.org/package=dsp) for dynamic shrinkage processes and changepoint detection.
-- **May 2025:** Postdoc Benjamin Hoose started a position at the Texas A&M Natural Resources Institute.
+- **May 2025:** Elizabeth Chun graduated with an M.S. in Statistical Data Science from Texas A&M.
 - **January 2025:** Began serving as Secretary of the ASA Section on Statistics and the Environment.
 - **November 2024:** New paper in *Technometrics*, "[Locally adaptive shrinkage priors for trends and breaks in count time series](https://doi.org/10.1080/00401706.2024.2407316)," with David Matteson.
 - **July 2024:** Two new changepoint papers with Haoxuan Wu and David Matteson, "[Drift vs shift](https://doi.org/10.1080/00401706.2024.2365730)" in *Technometrics* and "[Trend and variance adaptive Bayesian changepoint analysis](https://doi.org/10.1080/07350015.2024.2362269)" in the *Journal of Business & Economic Statistics*.
-- **May 2024:** Elizabeth Chun graduated with an M.S. in Statistical Data Science from Texas A&M.
 - **February 2024:** Received a supplement from the National Park Service to continue work on cruise ship visitation in Johns Hopkins Inlet.
 - **January 2024:** Elected Treasurer of the ASA Section on Statistics and the Environment, a position that continues as Secretary the following year.
 - **January 2024:** Renewed as a ConocoPhillips Data Science Faculty Fellow for a second year.

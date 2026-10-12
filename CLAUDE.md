@@ -37,6 +37,17 @@ README (this repo is `schafert/schafert`); leave it alone unless asked.
 - Preprints are wanted. They get `journal = {Preprint}`, which the user
   replaces in the PR (e.g. "Preprint; Under Review at Ecography").
 
+## News feed
+
+- The home page (`index.qmd`) has a `::: {.news-feed}` list, newest first,
+  each item `- **Month YYYY:** ...`. It starts in 2022, when the user became
+  an assistant professor. The box scrolls (`.news-feed` in `styles.scss`).
+- Monthly `.github/workflows/cran-check.yml` runs
+  `.github/scripts/cran_check.py`, which compares each package's CRAN page
+  (list in `PACKAGES`, currently dsp) with the version on the CV's Software
+  line. If CRAN is ahead, it opens a PR on branch `cran-check` that updates
+  the CV line and inserts a news item in date order.
+
 ## CV
 
 - `quarto-site/cv.qmd` is the source of truth for the CV. The user's old

@@ -68,7 +68,7 @@ Cho, J.B., Kowal, D.R., Wu, H., Matteson, D.S., and Schafer, T.L.J. *dsp: An R p
 
 ## Software
 
-Kowal D., Wu H., Schafer, T.L.J. (maintainer), Cho J., Matteson D.S. (2025). dsp: Dynamic Shrinkage Process and Change Point Detection. R package version 1.2.0. [CRAN.R-project.org/package=dsp](https://CRAN.R-project.org/package=dsp)
+Kowal D., Wu H., Schafer, T.L.J. (maintainer), Cho J., Matteson D.S. (2026). dsp: Dynamic Shrinkage Process and Change Point Detection. R package version 1.6.0. [CRAN.R-project.org/package=dsp](https://CRAN.R-project.org/package=dsp)
 
 ## Book Reviews
 
@@ -232,7 +232,7 @@ Biology Letters · Biometrics · Data Science in Science · Ecology · Ecology a
 
 **Postdoctoral Research Associates**
 
-- Benjamin Hoose, 2023 – 2025
+- Benjamin Hoose, 2023 – 2026
 
 **Graduate Students (Current)**
 
@@ -247,7 +247,7 @@ Biology Letters · Biometrics · Data Science in Science · Ecology · Ecology a
 **Graduate Students (Graduated)**
 
 - Georgia Smits (Cornell University, PhD-Statistics), Project Advisor, 2025
-- Elizabeth Chun (TAMU, MS-Statistical Data Science), Project Advisor, 2024
+- Elizabeth Chun (TAMU, MS-Statistical Data Science), Project Advisor, 2025
 - Dave Pearce (TAMU, MS-Wildlife Biology), Committee Member, 2025
 - Benjamin Hoose (TAMU, PhD-Wildlife Biology), Committee Member, 2024
 - Valerie Espinosa (TAMU, MS-Statistics), Project Advisor, 2024
