@@ -237,7 +237,6 @@ Biology Letters · Biometrics · Data Science in Science · Ecology · Ecology a
 **Graduate Students (Current)**
 
 - Daniel Drennan (TAMU, PhD-Statistics), Committee Chair
-- Donald Turner III (TAMU, PhD-Statistics), Committee Member
 - John Paul Acosta (TAMU, MS-Statistical Data Science), Project Advisor
 - Tara McNeil (TAMU, PhD-Entomology), Committee Member
 - Maria Teleki (TAMU, PhD-Computer Science), Committee Member
@@ -246,6 +245,7 @@ Biology Letters · Biometrics · Data Science in Science · Ecology · Ecology a
 
 **Graduate Students (Graduated)**
 
+- Donald Turner III (TAMU, PhD-Statistics), Committee Chair, 2026
 - Georgia Smits (Cornell University, PhD-Statistics), Project Advisor, 2025
 - Elizabeth Chun (TAMU, MS-Statistical Data Science), Project Advisor, 2025
 - Dave Pearce (TAMU, MS-Wildlife Biology), Committee Member, 2025
