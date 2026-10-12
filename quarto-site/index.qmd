@@ -21,32 +21,34 @@ about:
       href: https://orcid.org/0000-0001-5594-7697
 ---
 
-I am an Assistant Professor in the Department of Statistics and 2024 ConocoPhillips Data Science Faculty Fellow at Texas A&M University. Previously, I was a postdoctoral associate in the Department of Statistics and Data Science at Cornell University working with Dr. David Matteson. At Cornell, I coordinated research activities associated with the NSF funded [PRISM](https://sites.google.com/view/prism-prj/home) Institute for Trans-domain Systemic Risk. I finished my PhD in 2020 at the University of Missouri advised by Dr. Christopher Wikle. My quantitative research interests span many topics, but with an underlying commonality that includes spatio-temporal modeling, Bayesian statistics, and alternative learning frameworks such as machine learning, deep learning, and reinforcement learning. I am highly motivated by scientific hypotheses with an emphasis on ecological and environmental applications.
+I am an Assistant Professor in the Department of Statistics at Texas A&M University. Previously, I was a postdoctoral associate in the Department of Statistics and Data Science at Cornell University working with Dr. David Matteson. At Cornell, I coordinated research activities associated with the NSF funded [PRISM](https://sites.google.com/view/prism-prj/home) Institute for Trans-domain Systemic Risk. I finished my PhD in 2020 at the University of Missouri advised by Dr. Christopher Wikle. My quantitative research interests span many topics, but with an underlying commonality that includes spatio-temporal modeling, Bayesian statistics, and alternative learning frameworks such as machine learning, deep learning, and reinforcement learning. I am highly motivated by scientific hypotheses with an emphasis on ecological and environmental applications.
 
 **Prospective students**: Students with an interest in ecological data science and/or spatiotemporal Bayesian statistics are encouraged to apply to the PhD program in [Statistics](https://stat.tamu.edu/).
 
 ## News
 
 ::: {.news-feed}
+- **October 2026:** Wrapped up the three-year Sandia National Labs project on machine learning for data-driven closure models in Earth systems.
 - **September 2026:** New paper led by postdoc Benjamin Hoose in *The Journal of Wildlife Management*, "[Landscape drivers of scaled quail occurrence across a broad spatiotemporal extent](https://doi.org/10.1002/jwmg.70285)."
 - **September 2026:** New preprint, "[Quantifying temporal instability in ecological assemblages using modern portfolio theory](https://doi.org/10.22541/authorea.15009261/v1)," now under review at *Ecography*.
 - **July 2026:** Awarded a Texas A&M [AI Bridge Seed Grant](https://inside.provost.tamu.edu/story/texas-am-awards-first-ai-bridge-seed-grants-fueling-interdisciplinary-innovation/) with Cheng Zhang (Engineering) for "Bridging the Gap in Wildlife Monitoring: A Hybrid AI-Ecological Approach for Cryptic Taxa Detection and Multi-Source Data Fusion."
 - **June 2026:** New paper in *Spatial Statistics*, "[A multi-stage Bayesian approach to fit spatial point process models](https://doi.org/10.1016/j.spasta.2026.100975)," with Ran Ren and Mevin Hooten.
 - **February 2026:** New paper led by John Paul Acosta in *Environmental and Ecological Statistics* on [machine learning interpolation of movement trajectories](https://doi.org/10.1007/s10651-026-00713-w).
-- **2025:** Elected Secretary of the ASA Section on Statistics and the Environment.
 - **2025:** Released version 1.2.0 of the R package [dsp](https://CRAN.R-project.org/package=dsp) for dynamic shrinkage processes and changepoint detection.
 - **2025:** Georgia Smits (Cornell) and Elizabeth Chun (TAMU) completed their graduate projects.
+- **January 2025:** Began serving as Secretary of the ASA Section on Statistics and the Environment.
 - **November 2024:** New paper in *Technometrics*, "[Locally adaptive shrinkage priors for trends and breaks in count time series](https://doi.org/10.1080/00401706.2024.2407316)," with David Matteson.
 - **July 2024:** Two new changepoint papers with Haoxuan Wu and David Matteson, "[Drift vs shift](https://doi.org/10.1080/00401706.2024.2365730)" in *Technometrics* and "[Trend and variance adaptive Bayesian changepoint analysis](https://doi.org/10.1080/07350015.2024.2362269)" in the *Journal of Business & Economic Statistics*.
-- **2024:** Received a supplement from the National Park Service to continue work on cruise ship visitation in Johns Hopkins Inlet.
-- **2024:** Named a ConocoPhillips Data Science Faculty Fellow for a second year.
-- **2023:** Awarded grants from Sandia National Labs ("Machine Learning for Data-Driven Closure Models in Earth Systems") and the National Park Service (cruise ship visitation in Johns Hopkins Inlet).
-- **2023:** Named a ConocoPhillips Data Science Faculty Fellow.
+- **February 2024:** Received a supplement from the National Park Service to continue work on cruise ship visitation in Johns Hopkins Inlet.
+- **January 2024:** Elected Treasurer of the ASA Section on Statistics and the Environment, a position that continues as Secretary the following year.
+- **January 2024:** Renewed as a ConocoPhillips Data Science Faculty Fellow for a second year.
+- **October 2023:** Awarded a grant from Sandia National Labs, "Machine Learning for Data-Driven Closure Models in Earth Systems."
+- **2023:** Awarded a grant from the National Park Service to assess cruise ship visitation in Johns Hopkins Inlet.
 - **March 2023:** New paper in *Methods in Ecology and Evolution*, "[Clustering future scenarios based on predicted range maps](https://doi.org/10.1111/2041-210X.14080)."
 - **February 2023:** New papers in *Scientific Reports* on [location and acceleration data for animal behavior](https://doi.org/10.1038/s41598-023-28937-x) and in *Data Science in Science* on [renewable energy and electricity prices](https://doi.org/10.1080/26941899.2022.2158145).
+- **January 2023:** Named a ConocoPhillips Data Science Faculty Fellow.
 - **Fall 2022:** Joined the Department of Statistics at Texas A&M University as an Assistant Professor.
 - **June 2022:** New paper in *The Annals of Applied Statistics*, "[Bayesian inverse reinforcement learning for collective animal movement](https://doi.org/10.1214/21-AOAS1529)."
-- **2020:** Completed my Ph.D. in Statistics at the University of Missouri and started as a postdoc at Cornell University.
 :::
 
 ## Interests
