@@ -1,7 +1,8 @@
 name: Sync publications from ORCID
 
 # Checks the ORCID record once a month for works not yet in
-# quarto-site/LifeWork.bib and opens a pull request adding them.
+# quarto-site/LifeWork.bib and opens a pull request adding them, with a
+# news item for each on the home page.
 # Merging that pull request publishes them (quarto-publish.yml runs).
 # Can also be run by hand from the Actions tab.
 
@@ -58,3 +59,4 @@ jobs:
           add-paths: |
             quarto-site/LifeWork.bib
             quarto-site/_orcid-seen.txt
+            quarto-site/index.qmd

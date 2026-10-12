@@ -5,7 +5,8 @@ Run by .github/workflows/orcid-sync.yml. Reads the public ORCID works list,
 skips anything already handled (its ORCID put-code is in _orcid-seen.txt) or
 already in the bib (same DOI or near-identical title), and appends a BibTeX
 entry for each remaining work. Entries come from the publisher's DOI metadata
-when there is a DOI, otherwise from what ORCID has.
+when there is a DOI, otherwise from what ORCID has. Each new work also gets a
+news item on the home page, dated by its first online publication.
 
 Standard library only, so the workflow needs no pip install.
 """
@@ -16,7 +17,10 @@ import os
 import re
 import sys
 import urllib.request
+from datetime import date
 from pathlib import Path
+
+from news import add_news
 
 ORCID_ID = "0000-0001-5594-7697"
 SITE = Path(__file__).resolve().parents[2] / "quarto-site"
@@ -129,6 +133,47 @@ def format_entry(kind, key, fields):
     return "\n".join(lines)
 
 
+def clean(text):
+    """Plain text from a BibTeX field value."""
+    return re.sub(r"\\['`^\"~=.]|[{}]", "", text or "").strip()
+
+
+def first_published(work):
+    """Earliest publication date (online, posted, or print), or None.
+
+    Uses Crossref when there is a DOI, otherwise the ORCID date if it has a
+    month.
+    """
+    if work["doi"]:
+        try:
+            m = json.loads(get(f"https://api.crossref.org/works/{work['doi']}",
+                               "application/json"))["message"]
+            dates = []
+            for k in ("published-online", "posted", "published-print", "issued"):
+                parts = (m.get(k) or {}).get("date-parts", [[None]])[0]
+                if parts and parts[0] and len(parts) > 1:
+                    dates.append(date(parts[0], parts[1], 1))
+            if dates:
+                return min(dates)
+        except Exception as e:
+            print(f"warning: Crossref lookup failed for {work['doi']}: {e}",
+                  file=sys.stderr)
+    if work["year"] and work["month"]:
+        return date(int(work["year"]), int(work["month"]), 1)
+    return None
+
+
+def news_text(fields, preprint):
+    title = clean(fields.get("title"))
+    link = fields.get("url")
+    title = f"[{title}]({link})" if link else title
+    if preprint:
+        return f'New preprint, "{title}."'
+    journal = clean(fields.get("journal") or fields.get("booktitle"))
+    return f'New paper in *{journal}*, "{title}."' if journal \
+        else f'New paper, "{title}."'
+
+
 def entry_for(work):
     """Build (bibtex_type, fields, source_note) for one ORCID work summary."""
     doi = work["doi"]
@@ -179,6 +224,7 @@ def main():
             "title": s["title"]["title"]["value"],
             "type": s["type"],
             "year": ((s.get("publication-date") or {}).get("year") or {}).get("value"),
+            "month": ((s.get("publication-date") or {}).get("month") or {}).get("value"),
             "journal": (s.get("journal-title") or {}).get("value"),
             "url": (s.get("url") or {}).get("value"),
             "doi": doi,
@@ -199,6 +245,12 @@ def main():
         seen_lines.append(f"{work['code']}  # {key}")
         note = " **Replace the `Preprint` placeholder with the journal.**" \
             if work["type"] == "preprint" else ""
+        when = first_published(work)
+        if when:
+            add_news(news_text(fields, work["type"] == "preprint"), when)
+            note += f" News item added for {when:%B %Y}."
+        else:
+            note += " No publication month found, so no news item; add one by hand."
         report.append(f"- **New:** `{key}`: {label}, from {source}.{note}")
 
     if not seen_lines:
@@ -216,9 +268,11 @@ def main():
         f"([{ORCID_ID}](https://orcid.org/{ORCID_ID})):\n\n"
         + "\n".join(report)
         + "\n\nEdit the entries in `quarto-site/LifeWork.bib` on this branch if "
-        "anything needs fixing, then merge to publish.\n\n"
+        "anything needs fixing, then merge to publish. Also check the news "
+        "items in `quarto-site/index.qmd` (title case, \"led by ...\", or "
+        "delete ones you don't want).\n\n"
         "To skip a work without adding it, delete its entry from "
-        "`LifeWork.bib` but keep its line in `quarto-site/_orcid-seen.txt`, "
+        "`LifeWork.bib` and its news item but keep its line in `quarto-site/_orcid-seen.txt`, "
         "then merge. It will not be proposed again.\n"
     )
     print(SUMMARY.read_text())

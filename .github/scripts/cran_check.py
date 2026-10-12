@@ -10,20 +10,18 @@ adds a dated news item to the home page feed, in date order.
 Standard library only, so the workflow needs no pip install.
 """
 
-import calendar
 import os
 import re
 import urllib.request
 from datetime import date
 from pathlib import Path
 
+from news import add_news
+
 PACKAGES = ["dsp"]
 SITE = Path(__file__).resolve().parents[2] / "quarto-site"
 CV = SITE / "cv.qmd"
-INDEX = SITE / "index.qmd"
 SUMMARY = Path(os.environ.get("SUMMARY_FILE", "cran-check-summary.md"))
-
-MONTHS = {name: n for n, name in enumerate(calendar.month_name) if name}
 
 
 def cran_release(pkg):
@@ -44,29 +42,6 @@ def cran_release(pkg):
     return field("Version"), date.fromisoformat(field("Published"))
 
 
-def news_date(line):
-    """Date of a news item like '- **July 2026:** ...', or None."""
-    m = re.match(r"- \*\*([A-Z][a-z]+) (\d{4}):\*\*", line)
-    if not m or m.group(1) not in MONTHS:
-        return None
-    return date(int(m.group(2)), MONTHS[m.group(1)], 1)
-
-
-def add_news(item, when):
-    """Insert item into the home page news feed, newest first."""
-    lines = INDEX.read_text().splitlines(keepends=True)
-    start = next(i for i, l in enumerate(lines) if l.startswith("::: {.news-feed}"))
-    end = next(i for i in range(start + 1, len(lines)) if lines[i].strip() == ":::")
-    at = end
-    for i in range(start + 1, end):
-        d = news_date(lines[i])
-        if d and d <= when:
-            at = i
-            break
-    lines.insert(at, item + "\n")
-    INDEX.write_text("".join(lines))
-
-
 def main():
     cv = CV.read_text()
     report = []
@@ -85,10 +60,9 @@ def main():
         new_line = re.sub(r"\(\d{4}\)", f"({published.year})", new_line, count=1)
         cv = cv.replace(line, new_line)
 
-        month = f"{calendar.month_name[published.month]} {published.year}"
         link = f"https://CRAN.R-project.org/package={pkg}"
-        add_news(f"- **{month}:** Released version {version} of the R package "
-                 f"[{pkg}]({link}).", published)
+        add_news(f"Released version {version} of the R package [{pkg}]({link}).",
+                 published)
         report.append(f"- **{pkg}** {old} → {version}, published on CRAN "
                       f"{published.isoformat()} ([CRAN page]({link})).")
 

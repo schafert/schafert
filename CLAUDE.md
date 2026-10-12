@@ -47,6 +47,9 @@ README (this repo is `schafert/schafert`); leave it alone unless asked.
   (list in `PACKAGES`, currently dsp) with the version on the CV's Software
   line. If CRAN is ahead, it opens a PR on branch `cran-check` that updates
   the CV line and inserts a news item in date order.
+- The ORCID sync also adds a news item for each new work, dated by its
+  earliest Crossref publication date. Both scripts insert items through
+  `.github/scripts/news.py`.
 
 ## CV
 
