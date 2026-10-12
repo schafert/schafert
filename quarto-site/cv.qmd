@@ -81,6 +81,7 @@ Schafer, T.L.J. (2023). Review of *Statistics for Ecologists: A Frequentist and 
 | Sandia National Labs — "Machine Learning For Data-Driven Closure Models In Earth Systems" | PI | \$270,000 | 2023 |
 | National Park Service — "Generate a quantitative assessment of the implications of, and alternatives to, fully opening Johns Hopkins Inlet to cruise ship visitation" | PI | \$112,000 | 2023 |
 | National Park Service — Supplement to the above | PI | \$48,000 | 2024 |
+| Texas A&M AI Bridge Seed Grant — "Bridging the Gap in Wildlife Monitoring: A Hybrid AI-Ecological Approach for Cryptic Taxa Detection and Multi-Source Data Fusion" (with Cheng Zhang, Engineering) | Co-PI | \$20,000 | 2026 |
 
 ## Oral Presentations
 
