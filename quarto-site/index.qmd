@@ -28,6 +28,7 @@ I am an Assistant Professor in the Department of Statistics at Texas A&M Univers
 ## News
 
 ::: {.news-feed}
+- **October 2026:** Released version 1.7.0 of the R package [dsp](https://CRAN.R-project.org/package=dsp).
 - **October 2026:** Donald Turner III started a full-time position as a Statistical Scientist at Exponent.
 - **October 2026:** Wrapped up the three-year Sandia National Labs project on machine learning for data-driven closure models in Earth systems.
 - **September 2026:** New paper led by former postdoc Benjamin Hoose in *The Journal of Wildlife Management*, "[Landscape drivers of scaled quail occurrence across a broad spatiotemporal extent](https://doi.org/10.1002/jwmg.70285)."
