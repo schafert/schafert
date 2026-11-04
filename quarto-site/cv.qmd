@@ -68,7 +68,7 @@ Cho, J.B., Kowal, D.R., Wu, H., Matteson, D.S., and Schafer, T.L.J. *dsp: An R p
 
 ## Software
 
-Kowal D., Wu H., Schafer, T.L.J. (maintainer), Cho J., Matteson D.S. (2026). dsp: Dynamic Shrinkage Process and Change Point Detection. R package version 1.6.0. [CRAN.R-project.org/package=dsp](https://CRAN.R-project.org/package=dsp)
+Kowal D., Wu H., Schafer, T.L.J. (maintainer), Cho J., Matteson D.S. (2026). dsp: Dynamic Shrinkage Process and Change Point Detection. R package version 1.7.0. [CRAN.R-project.org/package=dsp](https://CRAN.R-project.org/package=dsp)
 
 ## Book Reviews
 
